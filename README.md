@@ -11,7 +11,7 @@ The repository is organised as follows:
 2. Unlabelled data - A collection of all data obtained during the web scraping of bug bounty platforms and CVD programme pages (contains dataset cards).
 3. Models - A spaCy Named Entity Recognition (NER) model and a spaCy multi-class classification model (contains model cards).
 4. Utils - Scripts predominantly used for training and evaluation.
-5. requirements.txt - Python environment requirements file.
+5. requirements.txt - Python environment requirements file (Python 3.8.13).
 
 ## Annotated data
 ```

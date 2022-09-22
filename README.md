@@ -14,7 +14,20 @@ The repository is organised as follows:
 5. requirements.txt - Python environment requirements file.
 
 ## Annotated data
-
+```
+Annotated data
+│   README.md
+│   
+│
+└───Classification
+│   │   README.md
+│   │
+│   
+│
+└───NER
+    │   README.md
+    │
+```
 
 
 ## Unlabelled data

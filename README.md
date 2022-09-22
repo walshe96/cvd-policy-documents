@@ -16,9 +16,8 @@ The repository is organised as follows:
 ## Annotated data
 ```
 Annotated data
-│   README.md
-│   
 │
+│   
 └───Classification
 │   │   README.md
 │   │
@@ -31,12 +30,90 @@ Annotated data
 
 
 ## Unlabelled data
+```
+Unlabelled data
+│   
+│       
+└───External programs/Policies
+│   │   README.md
+│
+│  
+└───H1
+│   │
+│   │
+│   └─── Current
+│   │    │
+│   │    │
+│   │    └─── Bounties
+│   │    │    │   README.md
+│   │    │    │
+│   │    │
+│   │    │
+│   │    └─── Directory
+│   │    │    │   README.md
+│   │    │    │
+│   │    │
+│   │    │
+│   │    └─── Policies
+│   │    │    │   README.md
+│   │    │    │
+│   │    │
+│   │    │
+│   │    └─── Scopes
+│   │         │   README.md
+│   │         │
+│   │
+│   │
+│   └─── Version changes
+│        │
+│        │
+│        └─── Bounties
+│        │    │   README.md
+│        │    │
+│        │
+│        │
+│        └─── Policies
+│        │    │   README.md
+│        │    │
+│        │
+│        │
+│        └─── Scopes
+│        │    │   README.md
+│        │    │
+│        │
+│        │
+│        └─── Updates
+│             │   README.md
+│             │
+│
+│
+└───Other platforms/Policies
+```
 
 
 ## Models
+```
+Models
+│ 
+│   
+└───Classification
+│   │   README.md
+│   │
+│   
+│
+└───NER
+    │   README.md
+    │
+```
 
 
 ## Utils
+```
+Utils
+│ 
+│   
+│   README.md
+```
 
 
 ## requirements.txt

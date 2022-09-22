@@ -8,7 +8,7 @@ Much of the data in the repository remains un-analysed, as it falls outside of t
 The repository is organised as follows:
 
 1. Annotated data - Annotated entity spans and multi-class categories used for model creation and evaluation (contains dataset cards). 
-2. Unlabelled data - A collection of all data obtained during the web scraping of bug bounty platforms and CVD programme pages.
+2. Unlabelled data - A collection of all data obtained during the web scraping of bug bounty platforms and CVD programme pages (contains dataset cards).
 3. Models - A spaCy Named Entity Recognition (NER) model and a spaCy multi-class classification model (contains model cards).
 4. Utils - Scripts predominantly used for training and evaluation.
 5. requirements.txt - Python environment requirements file.
@@ -19,12 +19,12 @@ Annotated data
 │
 │   
 └───Classification
-│   │   README.md
+│   │   README.md   (dataset card)
 │   │
 │   
 │
 └───NER
-    │   README.md
+    │   README.md   (dataset card)
     │
 ```
 
@@ -35,7 +35,7 @@ Unlabelled data
 │   
 │       
 └───External programs/Policies
-│   │   README.md
+│   │   README.md   (dataset card)
 │
 │  
 └───H1
@@ -45,22 +45,22 @@ Unlabelled data
 │   │    │
 │   │    │
 │   │    └─── Bounties
-│   │    │    │   README.md
+│   │    │    │   README.md   (dataset card)
 │   │    │    │
 │   │    │
 │   │    │
 │   │    └─── Directory
-│   │    │    │   README.md
+│   │    │    │   README.md   (dataset card)
 │   │    │    │
 │   │    │
 │   │    │
 │   │    └─── Policies
-│   │    │    │   README.md
+│   │    │    │   README.md   (dataset card)
 │   │    │    │
 │   │    │
 │   │    │
 │   │    └─── Scopes
-│   │         │   README.md
+│   │         │   README.md   (dataset card)
 │   │         │
 │   │
 │   │
@@ -68,26 +68,27 @@ Unlabelled data
 │        │
 │        │
 │        └─── Bounties
-│        │    │   README.md
+│        │    │   README.md   (dataset card)
 │        │    │
 │        │
 │        │
 │        └─── Policies
-│        │    │   README.md
+│        │    │   README.md   (dataset card)
 │        │    │
 │        │
 │        │
 │        └─── Scopes
-│        │    │   README.md
+│        │    │   README.md   (dataset card)
 │        │    │
 │        │
 │        │
 │        └─── Updates
-│             │   README.md
+│             │   README.md   (dataset card)
 │             │
 │
 │
 └───Other platforms/Policies
+    │   README.md   (dataset card)
 ```
 
 
@@ -97,12 +98,12 @@ Models
 │ 
 │   
 └───Classification
-│   │   README.md
+│   │   README.md   (model card)
 │   │
 │   
 │
 └───NER
-    │   README.md
+    │   README.md   (model card)
     │
 ```
 
@@ -115,3 +116,12 @@ Utils
 │   README.md
 ```
 
+
+
+
+
+
+
+Note 1: All dataset cards use the [Hugging Face dataset card](https://raw.githubusercontent.com/huggingface/datasets/main/templates/README.md) as a template 
+
+Note 2: All model cards use the [Hugging Face model card](https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1) as a template

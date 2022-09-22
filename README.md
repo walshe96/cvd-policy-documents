@@ -115,8 +115,3 @@ Utils
 │   README.md
 ```
 
-
-## requirements.txt
-
-
-

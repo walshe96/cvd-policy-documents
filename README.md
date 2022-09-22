@@ -14,6 +14,8 @@ The repository is organised as follows:
 5. requirements.txt - Python environment requirements file (Python 3.8.13).
 
 ## Annotated data
+Hand-labelled datasets are available for *NER* and *multi-class classification* downstream tasks. For the NER, over 12,000 unique sentences (representing 9.7% of the 123,440 sentence corpus) are annotated for 15 entity types (for further details see the dataset card). For the text classification, over 3,000 paragraphs (representing 7.6% of the 39,748 paragraph corpus) are annotated for 12 classes (for further details see the dataset card).
+
 ```
 Annotated data
 │
@@ -30,6 +32,8 @@ Annotated data
 
 
 ## Unlabelled data
+A broad corpus of unlabelled data is made available in order to encourage researchers to further explore CVD. Aside from raw text, tables of statistics and metrics for many bug bounty programmes are included. 
+
 ```
 Unlabelled data
 │   
@@ -93,6 +97,8 @@ Unlabelled data
 
 
 ## Models
+Fine-tuned *NER* and *multi-class classification* downstream models are provided to allow for the direct replication of results, and for use in further analysis. Both models make use of the spaCy NLP library, please see the model cards for more details.
+
 ```
 Models
 │ 
@@ -109,16 +115,14 @@ Models
 
 
 ## Utils
+A collection of Python functions and scripts are provided for convienience. 
+
 ```
 Utils
 │ 
 │   
 │   README.md
 ```
-
-
-
-
 
 
 

@@ -105,12 +105,12 @@ Models
 │   
 └───Classification
 │   │   README.md   (model card)
-│   │
+│   │   model-classification
 │   
 │
 └───NER
     │   README.md   (model card)
-    │
+    │   model-ner
 ```
 
 

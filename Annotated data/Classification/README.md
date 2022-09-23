@@ -105,30 +105,35 @@ To the knowledge of the authors, there is no personal or sentive information con
 
 ### Social Impact of Dataset
 
-[More Information Needed]
+As the purpose of the dataset is to allow for greater insights into the content of CVD policies, the social impact may be limited as it is not expected that the data will be used within any decision making system. 
+
 
 ### Discussion of Biases
 
-[More Information Needed]
+The biases for the dataset are as follows:
+
+1. Content is almost entirely in the English language.
+2. There is a geographic bias towards U.S. based organisations, and somewhat of a bias towards European organisations. Data from a limited number of non-Western organisations is present.
+3. As data for annotation was randomly selected over the corpus, it may not cover all possible sources of data (e.g., platform).
 
 ### Other Known Limitations
 
-[More Information Needed]
+The limitations for the dataset are as follows:
+
+1. The underlying data was collected in April 2022 and may not reflect the current state of CVD programmes.
+2. The employment of a single annotator may introduce biases may be hard to identify as inter-coder agreement is not possible to measure.
+
 
 ## Additional Information
 
 ### Dataset Curators
 
-[More Information Needed]
+To be updated in the future.
 
 ### Licensing Information
 
-[More Information Needed]
+To be updated in the future.
 
 ### Citation Information
 
-[More Information Needed]
-
-### Contributions
-
-Thanks to [@github-username](https://github.com/<github-username>) for adding this dataset.
+To be updated in the future.

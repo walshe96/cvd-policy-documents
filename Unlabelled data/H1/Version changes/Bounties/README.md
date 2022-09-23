@@ -1,4 +1,4 @@
-# Dataset Card for [Dataset Name]
+# Dataset Card for CVD Policy Documents, Unlabelled data, H1, Version changes, Bounties
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -27,97 +27,84 @@
 
 ## Dataset Description
 
-- **Homepage:**
-- **Repository:**
-- **Paper:**
-- **Leaderboard:**
-- **Point of Contact:**
+- **Homepage: N/A**
+- **Repository: [cvd-policy-documents](https://github.com/walshe96/cvd-policy-documents)**
+- **Paper: Towards a greater understanding of Coordinated Vulnerability Disclosure policy documents (under review)**
+- **Leaderboard: N/A**
+- **Point of Contact: Raise issue in repo**
 
 ### Dataset Summary
 
-[More Information Needed]
+This dataset provides the changes for all bounty offerings for all bug bounty programmes that use HackerOne.
 
 ### Supported Tasks and Leaderboards
 
-[More Information Needed]
+There are currently no supported tasks for this dataset. 
 
 ### Languages
 
-[More Information Needed]
+Underlying text is predomnantly in English, but may contain passages of text in other languages. 
 
 ## Dataset Structure
 
 ### Data Instances
 
-[More Information Needed]
+There are 7,030 entries containing information or comments on the change in bounties offered by programmes over time.
 
 ### Data Fields
 
-[More Information Needed]
+The fields are as follows:
 
-### Data Splits
-
-[More Information Needed]
+| Field      | Data type | Description |
+| ----------- | ----------- | ----------- |
+| Name | String | Name of the operating organisation |
+| Timestamp | Timestamp | Date and time of change |
+| EventID | Integer | For a given timestamp, entries with the same EventID correspond to replacements |
+| Change | String | Addition or deletion |
+| Domain | String | Either empty or comment |
+| Low | String | Monetary value, or range, of low severity bounties |
+| Medium | String | Monetary value, or range, of medium severity bounties |
+| High | String | Monetary value, or range, of high severity bounties |
+| Critical | String | Monetary value, or range, of critical severity bounties |
+| Content | String | Any comments that may be present in the bounty tables |
 
 ## Dataset Creation
 
 ### Curation Rationale
-
-[More Information Needed]
+Although not directly used in the study, it is hoped that the data will be of use to researchers in the future.
 
 ### Source Data
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
-
-#### Who are the source language producers?
-
-[More Information Needed]
-
-### Annotations
-
-#### Annotation process
-
-[More Information Needed]
-
-#### Who are the annotators?
-
-[More Information Needed]
-
-### Personal and Sensitive Information
-
-[More Information Needed]
-
-## Considerations for Using the Data
+The bounty data was collected from during April 2022.
 
 ### Social Impact of Dataset
+As the dataset contains no annotations, the usability outside of the current task may be limited. 
 
-[More Information Needed]
 
 ### Discussion of Biases
 
-[More Information Needed]
+The biases for the dataset are as follows:
+
+1. The content is applicable only to HackerOne.
 
 ### Other Known Limitations
 
-[More Information Needed]
+The limitations for the dataset are as follows:
+
+1. The underlying data was collected in April 2022 and may not reflect the current state of CVD programmes. However, as it represents all previous changes, it allows for a more complete picture of the data evolution. 
 
 ## Additional Information
 
 ### Dataset Curators
 
-[More Information Needed]
+To be updated in the future.
 
 ### Licensing Information
 
-[More Information Needed]
+To be updated in the future.
 
 ### Citation Information
 
-[More Information Needed]
-
-### Contributions
-
-Thanks to [@github-username](https://github.com/<github-username>) for adding this dataset.
-
+To be updated in the future.

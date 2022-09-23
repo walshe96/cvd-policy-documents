@@ -10,7 +10,7 @@ The following model card is inspired by the Hugging Face model card, but adapted
 | Metric | Macro averaged F1 |
 
 
-| Category      | Averaged F1 |
+| Type      | Averaged F1 |
 | ----------- | ----------- |
 | ORG | 85.7 |
 | ASSET | 78.7 |

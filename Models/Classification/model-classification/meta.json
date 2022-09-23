@@ -1,0 +1,44 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.2.4,<3.3.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"b50fe5ec6",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat_multilabel":[
+      "VULN-INELIGIBLE",
+      "COMPANY-STATEMENT",
+      "SCOPE-IN",
+      "LEGAL",
+      "ENGAGEMENT",
+      "PARTICIPANT-RESTRICTIONS",
+      "REWARD-EVALUATION",
+      "PROHIBITED-ACTIONS",
+      "GUIDELINES-SUBMISSIONS",
+      "SCOPE-OUT",
+      "GUIDELINES-DISCLOSURE",
+      "VULN-ELIGIBLE"
+    ]
+  },
+  "pipeline":[
+    "textcat_multilabel"
+  ],
+  "components":[
+    "textcat_multilabel"
+  ],
+  "disabled":[
+
+  ]
+}

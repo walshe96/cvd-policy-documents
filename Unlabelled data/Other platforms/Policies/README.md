@@ -1,4 +1,4 @@
-# Dataset Card for [Dataset Name]
+# Dataset Card for CVD Policy Documents, Unlabelled data, Other platforms, Policies
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -27,97 +27,81 @@
 
 ## Dataset Description
 
-- **Homepage:**
-- **Repository:**
-- **Paper:**
-- **Leaderboard:**
-- **Point of Contact:**
+- **Homepage: N/A**
+- **Repository: [cvd-policy-documents](https://github.com/walshe96/cvd-policy-documents)**
+- **Paper: Towards a greater understanding of Coordinated Vulnerability Disclosure policy documents (under review)**
+- **Leaderboard: N/A**
+- **Point of Contact: Raise issue in repo**
 
 ### Dataset Summary
 
-[More Information Needed]
+This dataset provides 717 CVD policies for organisations that operate a CVD programme hosted on a bug bounty platform (excluding HackerOne).
 
 ### Supported Tasks and Leaderboards
 
-[More Information Needed]
+There are currently no supported tasks for this dataset. 
 
 ### Languages
 
-[More Information Needed]
+Underlying text is predomnantly in English, but may contain passages of text in other languages. 
 
 ## Dataset Structure
 
 ### Data Instances
 
-[More Information Needed]
+There are 717 policies, of which none are empty.
 
 ### Data Fields
 
-[More Information Needed]
+The fields are as follows:
 
-### Data Splits
-
-[More Information Needed]
+| Field      | Data type | Description |
+| ----------- | ----------- | ----------- |
+| Platform | String | Name of the hosting platform |
+| Name | String | Name of the operating organisation |
+| URL | String | Link to the source of the policy |
+| Concept | String | Policy text |
 
 ## Dataset Creation
 
 ### Curation Rationale
 
-[More Information Needed]
+In order to investigate the contents of CVD policy documents, it was neccessary to understand the information conveyed by stand-alone programmes.
 
 ### Source Data
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
-
-#### Who are the source language producers?
-
-[More Information Needed]
-
-### Annotations
-
-#### Annotation process
-
-[More Information Needed]
-
-#### Who are the annotators?
-
-[More Information Needed]
-
-### Personal and Sensitive Information
-
-[More Information Needed]
-
-## Considerations for Using the Data
+The policy data was collected from during April 2022.
 
 ### Social Impact of Dataset
+As the dataset contains no annotations, the usability outside of the current task may be limited. 
 
-[More Information Needed]
 
 ### Discussion of Biases
 
-[More Information Needed]
+The biases for the dataset are as follows:
+
+1. Content is almost entirely in the English language.
+2. There is a geographic bias towards U.S. based organisations, and somewhat of a bias towards European organisations. Data from a limited number of non-Western organisations is present.
+3. Programmes are only considered from the following platforms (HackerOne programmes are provided in a different dataset): Immunefi, Bugcrowd, Intigriti, HackenProof, YesWeHack, BugBounty.jp, BugBase, WhiteHub, Security@me, RedStorm, Crowdswarm, Huntr.
 
 ### Other Known Limitations
 
-[More Information Needed]
+The limitations for the dataset are as follows:
+
+1. The underlying data was collected in April 2022 and may not reflect the current state of CVD programmes.
 
 ## Additional Information
 
 ### Dataset Curators
 
-[More Information Needed]
+To be updated in the future.
 
 ### Licensing Information
 
-[More Information Needed]
+To be updated in the future.
 
 ### Citation Information
 
-[More Information Needed]
-
-### Contributions
-
-Thanks to [@github-username](https://github.com/<github-username>) for adding this dataset.
-
+To be updated in the future.

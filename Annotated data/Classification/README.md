@@ -1,4 +1,4 @@
-# Dataset Card for [Dataset Name]
+# Dataset Card for CVD Policy Documents, Annotated data, Classification
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -27,29 +27,29 @@
 
 ## Dataset Description
 
-- **Homepage:**
-- **Repository:**
-- **Paper:**
-- **Leaderboard:**
-- **Point of Contact:**
+- **Homepage: N/A**
+- **Repository: [cvd-policy-documents](https://github.com/walshe96/cvd-policy-documents)**
+- **Paper: Towards a greater understanding of Coordinated Vulnerability Disclosure policy documents (under review)**
+- **Leaderboard: N/A**
+- **Point of Contact: Raise issue in repo**
 
 ### Dataset Summary
 
-[More Information Needed]
+This dataset provides over 3,000 annotated paragraphs using 12 CVD specific categories that consider the formal and informal constraints imposed upon participants (hackers).
 
 ### Supported Tasks and Leaderboards
 
-[More Information Needed]
+This dataset is only suitable for multi-class classification. 
 
 ### Languages
 
-[More Information Needed]
+Underlying text is predomnantly in English, but may contain passages of text in other languages. 
 
 ## Dataset Structure
 
 ### Data Instances
 
-[More Information Needed]
+There are 3,003 paragraphs within the dataset
 
 ### Data Fields
 
@@ -57,7 +57,7 @@
 
 ### Data Splits
 
-[More Information Needed]
+The presented dataset is unified, additional scripts are provided to split the data.
 
 ## Dataset Creation
 

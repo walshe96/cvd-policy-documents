@@ -22,12 +22,12 @@ Annotated data
 │   
 └───Classification
 │   │   README.md   (dataset card)
-│   │
+│   │   annotated_classification_dataset.spacy
 │   
 │
 └───NER
     │   README.md   (dataset card)
-    │
+    │   annotated_ner_dataset.spacy
 ```
 
 
@@ -40,6 +40,7 @@ Unlabelled data
 │       
 └───External programs/Policies
 │   │   README.md   (dataset card)
+│   │   standalone_programme_policy.pkl
 │
 │  
 └───H1
@@ -50,22 +51,22 @@ Unlabelled data
 │   │    │
 │   │    └─── Bounties
 │   │    │    │   README.md   (dataset card)
-│   │    │    │
+│   │    │    │   hackerone_current_programme_bounty.pkl
 │   │    │
 │   │    │
 │   │    └─── Directory
 │   │    │    │   README.md   (dataset card)
-│   │    │    │
+│   │    │    │   hackerone_current_directory.pkl
 │   │    │
 │   │    │
 │   │    └─── Policies
 │   │    │    │   README.md   (dataset card)
-│   │    │    │
+│   │    │    │   hackerone_current_programme_policy.pkl
 │   │    │
 │   │    │
 │   │    └─── Scopes
 │   │         │   README.md   (dataset card)
-│   │         │
+│   │         │   hackerone_current_programme_scope.pkl
 │   │
 │   │
 │   └─── Version changes
@@ -73,26 +74,27 @@ Unlabelled data
 │        │
 │        └─── Bounties
 │        │    │   README.md   (dataset card)
-│        │    │
+│        │    │   hackerone_version_changes_bounty.pkl
 │        │
 │        │
 │        └─── Policies
 │        │    │   README.md   (dataset card)
-│        │    │
+│        │    │   hackerone_version_changes_policy.pkl
 │        │
 │        │
 │        └─── Scopes
 │        │    │   README.md   (dataset card)
-│        │    │
+│        │    │   hackerone_version_changes_scope.pkl
 │        │
 │        │
 │        └─── Updates
 │             │   README.md   (dataset card)
-│             │
+│             │   hackerone_programme_updates.pkl
 │
 │
 └───Other platforms/Policies
     │   README.md   (dataset card)
+    │   platforms_other_programme_policy.pkl
 ```
 
 

@@ -1,4 +1,4 @@
-# Dataset Card for [Dataset Name]
+# Dataset Card for CVD Policy Documents, Unlabelled data, H1, Scopes
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -27,97 +27,83 @@
 
 ## Dataset Description
 
-- **Homepage:**
-- **Repository:**
-- **Paper:**
-- **Leaderboard:**
-- **Point of Contact:**
+- **Homepage: N/A**
+- **Repository: [cvd-policy-documents](https://github.com/walshe96/cvd-policy-documents)**
+- **Paper: Towards a greater understanding of Coordinated Vulnerability Disclosure policy documents (under review)**
+- **Leaderboard: N/A**
+- **Point of Contact: Raise issue in repo**
 
 ### Dataset Summary
 
-[More Information Needed]
+This dataset provides the current scope (in-scope and out-of-scope) information for bug bounty programmes that use HackerOne.
 
 ### Supported Tasks and Leaderboards
 
-[More Information Needed]
+There are currently no supported tasks for this dataset. 
 
 ### Languages
 
-[More Information Needed]
+Underlying text is predomnantly in English, but may contain passages of text in other languages. 
 
 ## Dataset Structure
 
 ### Data Instances
 
-[More Information Needed]
+There are 6,576 scope information instances.
 
 ### Data Fields
 
-[More Information Needed]
+The fields are as follows:
 
-### Data Splits
+| Field      | Data type | Description |
+| ----------- | ----------- | ----------- |
+| Name | String | Name of the operating organisation |
+| Timestamp | Timestamp | Date and time of issue |
+| Type | String | Type of asset in scope |
+| Identifier | String | Name of asset |
+| MaxSeverity | String | Maximum severity considered in asset |
+| InScope | String | Yes if asset in scopem otherwise no |
+| Bounty | String | Eligible or Ineligible for bounties |
 
-[More Information Needed]
 
 ## Dataset Creation
 
 ### Curation Rationale
-
-[More Information Needed]
+Although not directly used in the study, it is hoped that the data will be of use to researchers in the future.
 
 ### Source Data
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
-
-#### Who are the source language producers?
-
-[More Information Needed]
-
-### Annotations
-
-#### Annotation process
-
-[More Information Needed]
-
-#### Who are the annotators?
-
-[More Information Needed]
-
-### Personal and Sensitive Information
-
-[More Information Needed]
-
-## Considerations for Using the Data
+The bounty data was collected from during April 2022.
 
 ### Social Impact of Dataset
+As the dataset contains no annotations, the usability outside of the current task may be limited. 
 
-[More Information Needed]
 
 ### Discussion of Biases
 
-[More Information Needed]
+The biases for the dataset are as follows:
+
+1. The content is applicable only to HackerOne.
+2. Scopes are applicable only for the time of collection.
 
 ### Other Known Limitations
 
-[More Information Needed]
+The limitations for the dataset are as follows:
+
+1. The underlying data was collected in April 2022 and may not reflect the current state of CVD programmes.
 
 ## Additional Information
 
 ### Dataset Curators
 
-[More Information Needed]
+To be updated in the future.
 
 ### Licensing Information
 
-[More Information Needed]
+To be updated in the future.
 
 ### Citation Information
 
-[More Information Needed]
-
-### Contributions
-
-Thanks to [@github-username](https://github.com/<github-username>) for adding this dataset.
-
+To be updated in the future.

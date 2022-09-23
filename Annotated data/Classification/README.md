@@ -49,45 +49,57 @@ Underlying text is predomnantly in English, but may contain passages of text in 
 
 ### Data Instances
 
-There are 3,003 paragraphs within the dataset
+There are 3,003 paragraphs within the dataset, of which 955 belong to none of the pre-defined categories. The distribution of tags is as follows:
+
+| Class      | Count |
+| ----------- | ----------- |
+| COMPANY-STATEMENT | 622 | 
+| REWARD-EVALUATION | 466 | 
+| SCOPE-IN | 284 | 
+| VULN-ELIGIBLE | 219 | 
+| VULN-INELIGIBLE | 211 | 
+| PROHIBITED-ACTIONS | 182 | 
+| GUIDELINES-SUBMISSIONS | 174 | 
+| SCOPE-OUT | 155 | 
+| ENGAGEMENT | 119 | 
+| GUIDELINES-DISCLOSURE | 77 | 
+| LEGAL | 71 | 
+| PARTICIPANT-RESTRICTIONS | 38 | 
+
 
 ### Data Fields
 
-[More Information Needed]
+The dataset is provided a serialised [spaCy DocBin](https://spacy.io/api/docbin), this can either be read using the functions provided in [Utils](https://github.com/walshe96/cvd-policy-documents/tree/main/Utils) or the built in spaCy functions.
 
 ### Data Splits
 
-The presented dataset is unified, additional scripts are provided to split the data.
+The presented dataset is unified, additional scripts in [Utils](https://github.com/walshe96/cvd-policy-documents/tree/main/Utils) are provided to split the data.
 
 ## Dataset Creation
 
 ### Curation Rationale
 
-[More Information Needed]
+In order to investigate the contents of CVD policy documents, it was neccessary to understand the information conveyed throughout the document in relation to the policy element taxonomy proposed by [Laszka et al.](https://link.springer.com/chapter/10.1007/978-3-662-58387-6_8)
 
 ### Source Data
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
-
-#### Who are the source language producers?
-
-[More Information Needed]
+Data was collected from bug bounty platforms and stand-alone CVD programmes during April 2022, a full list of sources can be obtained from the paper. From the collected content, a random sample of paragraphs (split documents) was selected for annotation. 
 
 ### Annotations
 
 #### Annotation process
 
-[More Information Needed]
+A research license of Explosion.ai's [Prodigy](https://prodi.gy) annotation tool was obtained. The tool was subsequently used to perform manual text multi-classification. 
 
 #### Who are the annotators?
 
-[More Information Needed]
+The lead author of the paper performed all annotation. 
 
 ### Personal and Sensitive Information
 
-[More Information Needed]
+To the knowledge of the authors, there is no personal or sentive information contained within the dataset.
 
 ## Considerations for Using the Data
 

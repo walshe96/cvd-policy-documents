@@ -124,6 +124,10 @@ Utils
 │ 
 │   
 │   README.md
+│   document_splitter.py
+│   perform_inference.py
+│   spacy_cross_validation.py
+│   train.txt
 ```
 
 
